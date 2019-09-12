@@ -34,8 +34,6 @@ const alphabets = [
 
 let alphArrLength = 0;
 
-let currentVariable = alphabets[alphArrLength];
-
 const getAgentsforAlphabet = number => {
   let alphabet = alphabets[number];
   request(
@@ -54,8 +52,6 @@ const getAgentsforAlphabet = number => {
         console.log("Scraping Done...", alphabet);
       }
       alphArrLength = alphArrLength + 1;
-      console.log(alphArrLength);
-      console.log(currentVariable, "currentVariable");
       if (alphArrLength != 26) {
         getAgentsforAlphabet(alphArrLength);
       } else {
