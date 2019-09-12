@@ -2,7 +2,7 @@
 
 Here I have built a recursion function, which scrapes the name of all the trekking agencies registered in TAAN(Trekking Agencies Association Of Nepal)
 
-# # Install
+## Install
 
 ```
 $ node index
